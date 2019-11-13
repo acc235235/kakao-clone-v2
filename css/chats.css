@@ -1,0 +1,58 @@
+.chats-body {
+  padding-top: 120px;
+}
+.chats a {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.chats .chats__column-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chats__column-content .content {
+  margin-bottom: 10px;
+}
+.chats__column-content .friend__preview,
+.chats__column-timestemp .chat__time {
+  font-size: 14px;
+  opacity: 0.5;
+}
+.chats__column-timestemp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.chats__column-timestemp .chat__count {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+}
+.chats__column-content .friend__me {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+}
+.chats__column-content i {
+  font-size: 12px;
+  color: gray;
+}
+@keyframes select {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(3px, -3px);
+  }
+}
+.chats__list:hover {
+  animation: select 0.3s ease-in-out forwards;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/4205f2288a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>검색 | KakaoTalk Clone</title>
+  </head>
+
+  <body class="search-body">
+    <div class="header-wrapper">
+      <!-- Status-bar -->
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">20:16</span>
+          <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-signal"></i>
+          <span class="status-bar__LTE">LTE</span>
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>
+      <!-- Status-bar -->
+      <!-- header -->
+      <header class="header search">
+        <div class="header__column search">
+          <a href="#" class="search__list">
+            <i class="fas fa-hashtag"></i>
+            <h2 class="search__name">뉴스</h2>
+            <div class="search__selector"></div>
+          </a>
+          <a href="#" class="search__list">
+            <h2 class="search__name">FUN</h2>
+          </a>
+          <a href="#" class="search__list">
+            <h2 class="search__name">인기웹</h2>
+          </a>
+          <a href="#" class="search__list">
+            <h2 class="search__name">연예</h2>
+          </a>
+          <a href="#" class="search__list">
+            <h2 class="search__name">스포츠</h2>
+          </a>
+        </div>
+        <div class="header__column search">
+          <i class="fas fa-exchange-alt"></i>
+        </div>
+      </header>
+    </div>
+    <!-- header -->
+    <main>
+      <!-- search__contents -->
+      <section class="search__contents">
+        <article class="search__contents-text">
+          <ul class="search__contents-lists">
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                수능날 '에어팟' 들고 갔다면? '이렇게' 하세요
+              </a>
+            </li>
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                강제수사 76일째..정경심 어떤 혐의로 재판받나
+              </a>
+            </li>
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                [기자수첩] '아우디 폭탄할인'이 불러온 파장
+              </a>
+            </li>
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                "악어한테 물리면 눈 찔러라" 호주 생존자 증언
+              </a>
+            </li>
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                발로 골프공 밀어 넣고 "홀인원"..보험금 타냈다 징역형
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="search__contents-photo">
+          <ul class="search__contents-lists">
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                <img
+                  src="img/search/article-photo1.png"
+                  alt="기사1"
+                  class="content-photo"
+                />
+                <span class="content-title">
+                  칠레 군경은 고무탄 '정조준'.."눈 부상자 180명"
+                </span>
+              </a>
+            </li>
+            <li class="search__contents-list">
+              <a href="#" class="content-link">
+                <img
+                  src="img/search/article-photo2.png"
+                  alt="기사2"
+                  class="content-photo"
+                />
+                <span class="content-title">
+                  말꼬리로 만든 가짜 뿔, 코뿔소 밀렵 막을까
+                </span>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <!-- search__contents -->
+      <!-- search__search -->
+      <section class="search__search">
+        <div class="search__search-column">
+          <i class="fas fa-hashtag"></i>
+          <input
+            type="text"
+            placeholder="검색어를 입력해주세요"
+            class="search__input"
+          />
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="search__search-column">
+          <ul class="search__hashtegs">
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#VIP 결방</a>
+            </li>
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#김호영 공식입장</a>
+            </li>
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#강성훈 매진</a>
+            </li>
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#송진우 눈치</a>
+            </li>
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#이수민 수시</a>
+            </li>
+            <li class="hashteg-item">
+              <a href="#" class="hashteg-item__name">#이영진 박형식</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- search__search -->
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-icon">
+          <a href="index.html" class="nav__home">
+            <i class="far fa-user"></i>
+            <!-- none-click : far -->
+          </a>
+        </li>
+        <li class="nav__list-icon">
+          <a href="chats.html" class="nav__chats">
+            <i class="far fa-comment"></i>
+            <!-- click : fas -->
+            <span class="chats-count">1</span>
+          </a>
+        </li>
+        <li class="nav__list-icon">
+          <a href="search.html" class="nav__search">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-icon">
+          <a href="more.html" class="nav__more">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="phone__home-bar"></div>
+    </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__text">브라우저 크기를 줄여주세요</span>
+    </div>
+  </body>
+</html>

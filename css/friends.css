@@ -1,0 +1,53 @@
+.friends-body {
+  padding-top: 120px;
+}
+.user,
+.birthday-list,
+.bookmark {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #7f7f7f;
+}
+.birthday-list .title,
+.bookmark .title,
+.friend-list .title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.birthday-list .count {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.birthday-list .count span {
+  margin-right: 5px;
+}
+
+@keyframes select {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(3px, -3px);
+  }
+}
+.bookmark__list:hover {
+  animation: select 0.3s ease-in-out forwards;
+}
+.friends-area.user:hover {
+  animation: select 0.3s ease-in-out forwards;
+}
+.birthday-list .fiend-box:hover {
+  animation: select 0.3s ease-in-out forwards;
+}

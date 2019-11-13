@@ -1,0 +1,67 @@
+.setting-body {
+  padding-top: 120px;
+}
+.setting .header__title {
+  font-size: 18px;
+}
+.setting-box {
+  min-height: 1300px;
+  background-color: white;
+}
+.setting-list {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  color: black;
+}
+.setting-list .setting-item__name {
+  color: black;
+}
+.setting-list .setting-itme__value {
+  color: black;
+  opacity: 0.5;
+}
+.setting-list .setting-item {
+  width: 100%;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eeeded;
+}
+.setting-list .setting-item:nth-child(2) a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.setting-list .setting-item:nth-child(2) .setting-itme__icon {
+  width: 17px;
+  height: 17px;
+  margin-left: 10px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 15px;
+  background-color: #f53b02;
+}
+.setting-list .setting-item:nth-child(3) {
+  padding-bottom: 30px;
+}
+.setting-list .setting-item:nth-child(4) {
+  padding-top: 30px;
+}
+.setting-list .setting-item:nth-last-child(1) {
+  padding-top: 30px;
+}
+.setting-list .setting-item:nth-last-child(2) {
+  padding-bottom: 30px;
+}
+.setting-list .setting-item:nth-child(3) a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-list .setting-item:nth-child(9) a {
+  display: flex;
+  justify-content: space-between;
+}

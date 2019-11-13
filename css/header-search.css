@@ -1,0 +1,29 @@
+.header.search {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #7f7f7f;
+  position: relative;
+}
+.header .search:first-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search .search__list:first-child {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+.search .search__list:nth-child(1n + 2) {
+  opacity: 0.5;
+}
+.search .search__list:first-child i {
+  font-size: 17px;
+}
+.search .search__selector {
+  width: 65px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+}

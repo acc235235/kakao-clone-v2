@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/4205f2288a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>채팅 | KakaoTalk Clone</title>
+  </head>
+
+  <body class="chat-body">
+    <div class="header-wrapper">
+      <!-- Status-bar -->
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">20:16</span>
+          <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-signal"></i>
+          <span class="status-bar__LTE">LTE</span>
+          <i class="fas fa-battery-half"></i>
+        </div>
+      </div>
+      <!-- Status-bar -->
+      <!-- header -->
+      <header class="header">
+        <div class="header__column">
+          <a href="chats.html" class="back-button">
+            <i class="fas fa-chevron-left"></i>
+          </a>
+        </div>
+        <div class="header__column">
+          <h2 class="header__title">ㄱ141102♥</h2>
+        </div>
+        <div class="header__column">
+          <a href="err__chat.html" class="header__link">
+            <i class="fas fa-search"></i>
+          </a>
+          <a href="err__chat.html" class="header__link">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <!-- header -->
+    </div>
+
+    <main class="chat">
+      <!-- message -->
+      <ul class="chat__messages">
+        <span class="chat__timestamp">2019년 11월 12일 화요일</span>
+        <li class="incoming-message message">
+          <img
+            src="/img/avatar-friend.jpg"
+            alt=""
+            class="message__avatar g-avatar"
+          />
+          <div class="message__content">
+            <span class="message__author">ㄱ141102♥</span>
+            <div class="message__buble-box">
+              <div class="message__buble">가나다라마바사아자차카타파하</div>
+              <span class="message__timestamp">19:30</span>
+            </div>
+          </div>
+        </li>
+        <li class="send-message message">
+          <div class="message__content">
+            <div class="message__buble-box">
+              <span class="message__timestamp">19:40</span>
+              <div class="message__buble">아야어여오요우유으이</div>
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="/img/avatar-friend.jpg"
+            alt=""
+            class="message__avatar g-avatar"
+          />
+          <div class="message__content">
+            <span class="message__author">ㄱ141102♥</span>
+            <div class="message__buble-box">
+              <div class="message__buble">♥♥♥♥</div>
+              <span class="message__timestamp">19:45</span>
+            </div>
+          </div>
+        </li>
+        <li class="send-message message">
+          <div class="message__content">
+            <div class="message__buble-box">
+              <span class="message__timestamp">19:45</span>
+              <div class="message__buble">♥♥♥♥</div>
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img
+            src="/img/avatar-friend.jpg"
+            alt=""
+            class="message__avatar g-avatar"
+          />
+          <div class="message__content">
+            <span class="message__author">ㄱ141102♥</span>
+            <div class="message__buble-box">
+              <div class="message__buble">♥♥♥♥</div>
+              <span class="message__timestamp">19:45</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- message -->
+    </main>
+    <div class="chat__write-container">
+      <input type="text" placeholder="Send message" class="chat__input" />
+      <div class="chat__icon-left">
+        <i class="fas fa-plus"></i>
+      </div>
+      <div class="chat__icon-right">
+        <i class="far fa-smile-wink"></i>
+        <i class="fas fa-hashtag"></i>
+      </div>
+      <div class="phone__home-bar"></div>
+    </div>
+    <div class="bigscreen">
+      <span class="bigscreen__text">브라우저 크기를 줄여주세요</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/4205f2288a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>채팅 | KakaoTalk Clone</title>
+</head>
+
+<body class="chats-body">
+    <div class="header-wrapper">
+        <!-- Status-bar -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span class="status-bar__clock">20:16</span>
+                <i class="fas fa-location-arrow"></i>
+            </div>
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i>
+                <span class="status-bar__LTE">LTE</span>
+                <i class="fas fa-battery-half"></i>
+            </div>
+            <!-- Status-bar -->
+        </div>
+        <!-- header -->
+        <header class="header">
+            <div class="header__column">
+                <h2 class="header__title">채팅</h2>
+            </div>
+            <div class="header__column">
+                <a href="err__chats.html" class="header__link">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="err__chats.html" class="header__link">
+                    <i class="fas fa-comment-medical"></i>
+                </a>
+                <a href="err__chats.html" class="header__link">
+                    <i class="fas fa-music"></i>
+                </a>
+                <a href="err__chats.html" class="header__link">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </div>
+        </header>
+        <!-- header -->
+    </div>
+    <main>
+        <!-- chats -->
+        <section class="friends-area chats-list">
+            <ul class="chats__lists">
+                <li class="chats__list chats">
+                    <a href="chat.html" class="chats__link">
+                        <div class="chats__column-content">
+                            <img src="img/avatar-friend.jpg" alt="프사" class="friend__avatar" />
+                            <div class="chats__previews">
+                                <div class="chats__previews-column content">
+                                    <span class="friend__name">ㄱ141102♥</span>
+                                    <i class="fas fa-thumbtack"></i>
+                                </div>
+                                <div class="chats__previews-column preview">
+                                    <span class="friend__preview">♥♥♥♥</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chats__column-timestemp">
+                            <span class="chat__time">19:50</span>
+                            <span class="chat__count">1</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="chats__list chats">
+                    <a href="chat.html" class="chats__link">
+                        <div class="chats__column-content">
+                            <img src="img/avatar-user.jpg" alt="프사" class="friend__avatar" />
+                            <div class="chats__previews">
+                                <div class="chats__previews-column content">
+                                    <span class="friend__me">나</span>
+                                    <span class="friend__name">235</span>
+                                    <i class="fas fa-thumbtack"></i>
+                                </div>
+                                <div class="chats__previews-column preview">
+                                    <span class="friend__preview">오늘 꼭 잊기 않기!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chats__column-timestemp">
+                            <span class="chat__time">16:44</span>
+                            <!-- ## 카운트 안 됨 : 본인.
+                            <span class="chat__count">1</span>
+                            -->
+                        </div>
+                    </a>
+                </li>
+                <li class="chats__list chats">
+                    <a href="chat.html" class="chats__link">
+                        <div class="chats__column-content">
+                            <img src="img/avatar-friend.jpg" alt="프사" class="friend__avatar" />
+                            <div class="chats__previews">
+                                <div class="chats__previews-column content">
+                                    <span class="friend__name">ㄱ여사님</span>
+                                </div>
+                                <div class="chats__previews-column preview">
+                                    <span class="friend__preview">가나다라마바사</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chats__column-timestemp">
+                            <span class="chat__time">19:11</span>
+                            <!-- ## 카운트 안 됨 : 본인.
+                            <span class="chat__count">1</span>
+                            -->
+                        </div>
+                    </a>
+
+                </li>
+            </ul>
+            </div>
+        </section>
+        <!-- chats -->
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-icon">
+                <a href="index.html" class="nav__home">
+                    <i class="far fa-user"></i> <!-- none-click : far -->
+                </a>
+            </li>
+            <li class="nav__list-icon">
+                <a href="chats.html" class="nav__chats">
+                    <i class="fas fa-comment"></i> <!-- click : fas -->
+                    <span class="chats-count">1</span>
+                </a>
+            </li>
+            <li class="nav__list-icon">
+                <a href="search.html" class="nav__search">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </li>
+            <li class="nav__list-icon">
+                <a href="more.html" class="nav__more">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="phone__home-bar"></div>
+    </nav>
+    <div class="bigscreen">
+            <span class="bigscreen__text">브라우저 크기를 줄여주세요</span>
+        </div>
+</body>
+</html>

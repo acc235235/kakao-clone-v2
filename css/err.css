@@ -1,0 +1,15 @@
+.err-body {
+  padding-top: 120px;
+}
+.header.err .header__column:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.header.err .header__column:first-child a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header.err .header__column:first-child i {
+  margin-right: 10px;
+}

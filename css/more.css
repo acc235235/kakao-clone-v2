@@ -1,0 +1,110 @@
+.more-body {
+  padding-top: 120px;
+}
+/* user info */
+.user-info .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .friend__info-column {
+  width: 60px;
+  height: auto;
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+  border-radius: 20px;
+  text-align: center;
+}
+.info .friend__info-column i {
+  font-size: 15px;
+  color: #00dd00;
+}
+/* user info */
+/* kakao pay */
+.kakao-pay {
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111112;
+}
+.kakao-pay__column:first-child {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kakao-pay__column:first-child .kakao-pay__content {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.kakao-pay__content .kakao-pay__name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 11px;
+}
+.kakao-pay__content .kakao-pay__angle-right {
+  opacity: 0.5;
+}
+.kakao-pay__column:first-child .kakao-pay__money {
+  opacity: 0.5;
+}
+.kakao-pay__column:first-child .kakao-pay__charge {
+  padding: 5px 7px;
+  border-radius: 6px;
+  background-color: black;
+  font-size: 16px;
+}
+.kakao-pay__column:last-child {
+  display: flex;
+  justify-content: center;
+}
+.kakao-pay__column:last-child span {
+  padding: 0px 5px;
+}
+.kakao-pay__column:last-child .kakao-pay__line {
+  opacity: 0.5;
+}
+/* kakao pay */
+/* kakao service */
+.kakao-service__lists {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.kakao-service .kakao-service__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.kakao-service__link img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+/* kakao service */
+/* other */
+.other {
+  margin: 20px 0px;
+  padding: 15px 20px 15px 20px;
+  border-top: 1px solid #7f7f7f;
+  border-bottom: 1px solid #7f7f7f;
+  display: flex;
+  justify-content: space-between;
+}
+.other a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other .other__action {
+  margin-left: 10px;
+  opacity: 0.5;
+}
+/* other */

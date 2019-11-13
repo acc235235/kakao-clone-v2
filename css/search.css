@@ -1,0 +1,111 @@
+.search-body {
+  padding-top: 120px;
+}
+/* section-contents */
+/* article-text */
+.search__contents-text .search__contents-list {
+  margin: 10px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #7f7f7f;
+}
+.search__contents-text .search__contents-list:first-child {
+  padding-top: 0px;
+}
+.search__contents-text .search__contents-list:last-child {
+  padding-top: 0px;
+  border-bottom: 0px solid #7f7f7f;
+}
+/* article-text */
+/* article-photo */
+.search__contents-photo .search__contents-lists {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__contents-photo .search__contents-list a {
+  display: flex;
+  flex-direction: column;
+}
+.search__contents-photo .search__contents-list img {
+  width: 190px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.search__contents-photo .search__contents-list span {
+  width: 180px;
+}
+/* article-photo */
+/* section-contents */
+/* section-search */
+.search__search {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  bottom: 96px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  color: black;
+}
+.search__search .search__search-column:first-child {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  border: 3px solid #f7f700;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__search-column:first-child .fa-hashtag {
+  color: #ecec00;
+}
+.search__search-column:first-child .fa-search {
+  opacity: 0.5;
+}
+.search__search-column:first-child input {
+  width: 100%;
+  margin: 0px 5px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  font-family: "Gaegu";
+  opacity: 0.5;
+}
+.search__search .search__hashtegs {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.search__hashtegs .hashteg-item {
+  margin-bottom: 10px;
+}
+.search__search a {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  color: black;
+  font-size: 14px;
+}
+/* section-search */
+@keyframes select {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translate(3px, -3px);
+  }
+}
+.search__contents-list:hover {
+  animation: select 0.3s ease-in-out forwards;
+}

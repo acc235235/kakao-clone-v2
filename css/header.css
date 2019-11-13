@@ -1,0 +1,13 @@
+.header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.header .header__title {
+  font-weight: 700;
+}
+.header i {
+  margin-left: 10px;
+  font-size: 20px;
+}

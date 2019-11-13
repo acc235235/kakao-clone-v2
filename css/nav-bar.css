@@ -1,0 +1,43 @@
+.nav {
+  margin: 0px auto;
+  position: relative;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #111112;
+}
+.nav .nav__list {
+  margin: 20px 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .phone__home-bar {
+  width: 150px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #fefefe;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+}
+.nav__list i {
+  font-size: 25px;
+}
+.nav__list .nav__list-icon:nth-child(2) {
+  position: relative;
+}
+.nav__list .chats-count {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  position: absolute;
+  top: -8px;
+  right: -5px;
+}

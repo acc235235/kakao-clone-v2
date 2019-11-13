@@ -1,0 +1,62 @@
+/* 공통 친구 프로필 */
+.friend {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.friend.user {
+  margin-bottom: 0px;
+}
+.friend .friend__column:first-child {
+  max-width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend__avatar,
+.g-avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 35%;
+}
+.friend__avatar.l-avatar {
+  width: 70px;
+  height: 70px;
+}
+.friend .friend__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.friend .friend__name {
+  margin-bottom: 10px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.friend .friend__status {
+  opacity: 0.5;
+}
+.friend .music {
+  width: auto;
+  max-width: 55%;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #08e045;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friend__music-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.friend .music i {
+  font-size: 10px;
+  color: #08e045;
+}
+/* 공통 친구 프로필 */
